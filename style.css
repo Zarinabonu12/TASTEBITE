@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid r
+    /* outline: 2px solid red  */
 }
 
 header {
@@ -238,6 +238,7 @@ header {
 @media(max-width:865px) {
     .categories-parent {
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 }
 
@@ -534,7 +535,7 @@ header {
 .all-recipes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 30px;
+    column-gap: calc(1.8vw + 2.9px);
     row-gap: calc(2.9vw + 22px);
     justify-content: space-between;
     align-items: center;
@@ -561,7 +562,7 @@ header {
 }
 
 .recipe-pic {
-    width: calc(9.1vw + 123.8px);
+    width: 100%;
     height: calc(6.7vw + 93.6px);
     border-radius: calc(0.1vw + 3.2px);
 }
