@@ -242,6 +242,15 @@ header {
     }
 }
 
+.categories-headline a{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: calc(1.1vw + 19.7px);
+    line-height: 44px;
+    color: #000000;
+    text-decoration: none;
+}
+
 .category {
     display: flex;
     flex-direction: column;
