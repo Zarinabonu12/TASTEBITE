@@ -43,7 +43,7 @@ header {
 }
 
 @media(max-width:930px) {
-    .navigation-bar ul {
+    .navigation-bar {
         display: none;
     }
 }
